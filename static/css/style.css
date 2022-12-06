@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+.quicksand{
+    font-family: 'Quicksand', sans-serif;
+}
 *{
     margin: 0;
     padding:0;
@@ -12,10 +18,22 @@
     justify-content: center;
     align-items: center;
 }
+
 .navbar{
-   position: fixed;
-   top: 0;
-   background-color: white;
+    width: 100%;
+    height: auto;
+    background-color:#F8ECDB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+}
+
+.logo{
+    position: relative;
 }
 
 #MenuItems *{
@@ -23,20 +41,36 @@
     list-style: none;
     color: #5C20BC;
     font-size: 22px;
+    font-weight: bold;
+}
+
+.offriamo{
+    border-right:1px solid #5C20BC;
+    border-left:1px solid #5C20BC;
+}
+
+.siamo{
+    border-left:1px solid #5C20BC;
+}
+
+#MenuItems li{
+    padding: 0 30px;
 }
 
 #MenuItems{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
     padding: 20px;
+    justify-content: flex-end;
 }
 
 .areaRiservata {
     padding: 10px;
-    background-color: #5C20BC;
-    opacity: 26%;
-    
+    border-radius: 10px;
+    background-color: rgba(92, 32, 188, 0.26);
+}
+
+#MenuItems span{
+    color: black;
 }
