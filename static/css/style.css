@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Quicksand&display=swap');
 
 body{
     font-family: 'Quicksand', sans-serif;
@@ -78,6 +78,9 @@ body{
     background: rgb(255,255,255);
     background: linear-gradient(328deg, rgba(255,255,255,1) 0%, rgba(195,182,215,1) 50%, rgba(195,182,215,1) 100%);
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header{
@@ -115,4 +118,19 @@ body{
 
 .assistenza{
     border-right:1px solid black;
+}
+
+.title{
+    font-family: 'Quattrocento', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box{
+    margin: auto 0;
+    padding: 3%;
+    background-color:#F8ECDB;
+    border-radius: 20px;
+    display: flex0;
+    align-items: center;
+    justify-content: center;
 }
