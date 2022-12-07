@@ -86,7 +86,12 @@ img{
     font-size: 32px;
     background-color: white;
     background-image: url('../img/cerca.png');
-    background-position: 10px 10px;
+    background-position: 5% 50%;
     background-repeat: no-repeat;
-    padding: 5%;
+    padding: 5% 15%;
+}
+
+.cerca{
+    margin-bottom: 0.5%;
+    margin-left: 75%;
 }
