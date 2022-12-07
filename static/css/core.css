@@ -93,6 +93,8 @@ body{
 
 .social{
     margin-right:6%;
+    display: flex;
+    justify-content: space-between;
 }
 .social a{
     margin-left: 30px;
