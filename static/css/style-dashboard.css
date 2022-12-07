@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quattrocento&family=Quicksand&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    width: 100%;
+    height: 92.5vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(328deg, rgba(255,255,255,1) 0%, rgba(195,182,215,1) 50%, rgba(195,182,215,1) 100%);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    width: 90%;
+    height: auto;
+    border: 3px solid #4B4453;
+    border-radius: 10px;
+    border-spacing: 0;
+    background-color: white;
+}
+
+.nome{
+     border-right: 2px solid #4B4453;
+     border-left: 2px solid #4B4453;
+}
+
+.email{
+    border-right: 2px solid #4B4453;
+}
+
+.corpo td{
+    text-align: center;
+    border-top: 2px solid #4B4453;
+    font-size: 28px;
+    height: 9vh;
+}
+
+.identificativi td{
+  padding-left: 1%;
+  font-size: 40px;
+}
+.bottoni{
+    display: flex;
+    align-items: center;    
+}
+button{
+    margin:0 1%;
+    padding: 2% 10.5%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+}
+.modifica{
+    background-color: rgba(0, 117, 93, 0.9);
+}
+
+.elimina{
+    background-color: rgba(184, 24, 17, 0.9);
+}
+
+img{
+    margin-left:  10%;
+}
+
+.azioni{
+    width: 24.7%;
+}
