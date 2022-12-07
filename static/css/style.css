@@ -152,11 +152,18 @@ body{
 
 .bottoni{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1% 8%;
-    background-color: rgba(255, 43, 113, 0.45);
+    justify-content: space-around;
 }
+
+.bottoni button{
+        padding: 0;
+        border: none;
+        background: none;
+    
+        margin: 0 50%;
+        padding: 7% 80%;
+        background-color: rgba(255, 43, 113, 0.45);
+    }
 
 /*colori grigi*/
 .sfocaturaBox{
@@ -185,8 +192,16 @@ body{
 
 .sfocaturaBottoni{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1% 8%;
+    justify-content: space-around;
+    
+}
+
+.sfocaturaBottoni button{
+    padding: 0;
+    border: none;
+    background: none;
+
+    margin: 0 50%;
+    padding: 7% 80%;
     background-color: rgba(30, 30, 30, 0.39);
 }
