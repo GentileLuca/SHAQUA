@@ -1,7 +1,7 @@
 .content {
     width: 100%;
     background: rgb(255,255,255);
-    background: linear-gradient(328deg, rgba(255,255,255,0.1) 0%, rgba(195,182,215,1) 50%, rgba(92, 32, 188, 1) 100%);
+    background: linear-gradient(328deg, rgba(255,255,255,1) 0%, rgba(195,182,215,1) 50%, rgba(195,182,215,1) 100%);
     background-position: center;
     display: flex;
     align-items: center;
@@ -10,6 +10,7 @@
 
 /*colori normali*/
 .box{
+    text-align: center;
     margin: auto 0;
     padding: 2%;
     background-color:#F8ECDB;
@@ -21,14 +22,31 @@
     font-family: 'Quattrocento', serif;
     font-family: 'Quicksand', sans-serif;
     width: 400px;
-    height: 150px;
 }
 
-.boxes img{
-    width: 120px;
-    height: 80px;
+.boxes img.utenti{
+    width: 167px;
+    height: 100px;
+    padding-top: 15%;
+}
+.boxes img.controllo{
+    width: 121px;
+    height: 110px;
+    padding-top: 15%;
 }
 
+/*ingrandimo img*/
+.box img.utenti{
+    width: 280px;
+    height: 170px;
+    padding-top: 15%;
+}
+.box img.controllo{
+    width: 200px;
+    height: 200px;
+    padding-top: 15%;
+}
+/*fine*/
 .title{
     font-size: 32px;
     font-weight: bold;
@@ -47,6 +65,7 @@
 
 /*colori grigi*/
 .sfocaturaBox{
+    text-align: center;
     padding: 1.5%;
     background-color:rgba(248, 236, 219, 0.66);
     border-radius: 20px;
@@ -58,7 +77,6 @@
     font-family: 'Quattrocento', serif;
     font-family: 'Quicksand', sans-serif;
     width: 300px;
-    height: 150px;
 }
 
 .sfocaturaTitle{
@@ -67,10 +85,10 @@
         border-radius: 20px;   
         color: rgba(0, 0, 0, 0.5);
 }
-
+/*
 .sfocaturaImg{
    opacity: 50%;
-}
+}*/
 
 /*Prima sezione*/
 
@@ -91,9 +109,18 @@
 .boxes{
     display: flex;
     align-items: center;
-    margin:5%;
+    margin-top:6%;
 }
 
 .primoContent{
     margin-top: 5%;
+    text-align: center;
+}
+
+.boxes div{
+    margin: 0 5%;
+}
+
+.hidden{
+    display: none;
 }
