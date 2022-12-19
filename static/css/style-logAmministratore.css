@@ -25,6 +25,11 @@ body{
     width: 40%;
 }
 
+.containerForm form{
+    margin-left: 10%;
+}
+
+
 form{
     display: flex;
     justify-content: center;
