@@ -1,12 +1,11 @@
 .content {
     width: 100%;
-    height: 92.5vh;
     background: rgb(255,255,255);
-    background: linear-gradient(328deg, rgba(255,255,255,1) 0%, rgba(195,182,215,1) 50%, rgba(195,182,215,1) 100%);
+    background: linear-gradient(328deg, rgba(255,255,255,0.1) 0%, rgba(195,182,215,1) 50%, rgba(92, 32, 188, 1) 100%);
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction:column;
 }
 
 /*colori normali*/
@@ -17,13 +16,17 @@
     border-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width:25%;
-    height: 35%;
-    margin: auto;
     flex-direction: column;
+    justify-content: space-between;
     font-family: 'Quattrocento', serif;
     font-family: 'Quicksand', sans-serif;
+    width: 400px;
+    height: 150px;
+}
+
+.boxes img{
+    width: 120px;
+    height: 80px;
 }
 
 .title{
@@ -44,18 +47,18 @@
 
 /*colori grigi*/
 .sfocaturaBox{
-    padding: 0.5%;
+    padding: 1.5%;
     background-color:rgba(248, 236, 219, 0.66);
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:25%;
-    height: 30%;
     margin: auto;
     flex-direction: column;
     font-family: 'Quattrocento', serif;
     font-family: 'Quicksand', sans-serif;
+    width: 300px;
+    height: 150px;
 }
 
 .sfocaturaTitle{
@@ -67,4 +70,30 @@
 
 .sfocaturaImg{
    opacity: 50%;
+}
+
+/*Prima sezione*/
+
+.bentornato{
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    color: #393440;
+    border-bottom: 3px solid #393440;
+}
+
+.paragrafo{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(57, 52, 64, 0.8);
+}
+
+
+.boxes{
+    display: flex;
+    align-items: center;
+    margin:5%;
+}
+
+.primoContent{
+    margin-top: 5%;
 }
