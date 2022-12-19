@@ -12,14 +12,14 @@
 /*colori normali*/
 .box{
     margin: auto 0;
-    padding: 3%;
+    padding: 2%;
     background-color:#F8ECDB;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:36%;
-    height: 40%;
+    width:25%;
+    height: 35%;
     margin: auto;
     flex-direction: column;
     font-family: 'Quattrocento', serif;
@@ -27,11 +27,10 @@
 }
 
 .title{
-    font-size: 40px;
+    font-size: 32px;
     font-weight: bold;
-    padding: 1% 16%;
-    background-color: #FF2B71;
     border-radius: 20px;
+    color: black;
 }
 
 .txt{
@@ -39,32 +38,20 @@
    
 }
 
-.bottoni{
-    display: flex;
-    justify-content: space-around;
+.img{
+    opacity: 100%;
 }
-
-.bottoni button{
-        padding: 0;
-        border: none;
-        background: none;
-    
-        margin: 0 50%;
-        padding: 7% 80%;
-        background-color: rgba(255, 43, 113, 0.45);
-    }
 
 /*colori grigi*/
 .sfocaturaBox{
-    margin: auto 0;
-    padding: 3%;
+    padding: 0.5%;
     background-color:rgba(248, 236, 219, 0.66);
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:36%;
-    height: 40%;
+    width:25%;
+    height: 30%;
     margin: auto;
     flex-direction: column;
     font-family: 'Quattrocento', serif;
@@ -72,25 +59,12 @@
 }
 
 .sfocaturaTitle{
-        font-size: 40px;
+        font-size: 22px;
         font-weight: bold;
-        padding: 1% 16%;
-        background-color: rgba(0, 0, 0, 0.45);
-        border-radius: 20px;    
+        border-radius: 20px;   
+        color: rgba(0, 0, 0, 0.5);
 }
 
-.sfocaturaBottoni{
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-.sfocaturaBottoni button{
-    padding: 0;
-    border: none;
-    background: none;
-
-    margin: 0 50%;
-    padding: 7% 80%;
-    background-color: rgba(30, 30, 30, 0.39);
+.sfocaturaImg{
+   opacity: 50%;
 }
