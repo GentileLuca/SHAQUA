@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quattrocento&family=Quicksand&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}   
+.content {
+    background: linear-gradient(328deg, rgba(255,255,255,1) 0%, rgba(195,182,215,1) 50%, rgba(195,182,215,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px; 
+    color: rgba(0, 0, 0, 0.79);
+    margin-bottom: 10%;
+}
+
+.containerForm{
+    background-color: #F8ECDB;
+    border-radius: 30px;
+    width: 40%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+input{
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    border: 0;
+    background-color: transparent;
+    margin-top: 3%;
+    padding: 0.5%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    margin-bottom: 15%;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 3%;
+    
+}
+
+.bottone{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottone button{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 24px;
+    background-color: rgba(255, 43, 113, 0.77);
+    padding:10% 55%;
+    border-radius: 10px;
+    border: 0;
+}
+
+.interazioni {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.bottone{
+    margin: 5%;
+}
+
+.checkbox{
+    margin-right: 20%;
+}
+
