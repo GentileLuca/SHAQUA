@@ -268,7 +268,7 @@ header{
     text-align: center;
 }
 
-.idea p{
+.idea div{
     padding: 10%;
     background-color: #F8ECDB;
     border-radius: 20px;
@@ -276,6 +276,9 @@ header{
     align-content: center;
     max-width: 700px;
     min-height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 
