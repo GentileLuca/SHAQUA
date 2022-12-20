@@ -22,3 +22,22 @@ for (let i = 0; i < sfocaturaBox.length; i++) {
                 sfocaturaBottoni[i].classList.remove('bottoni')            
             })
         }
+
+
+let accediUtente = document.querySelector(".logUtente")
+let logAmm = document.querySelector(".logAmm")
+let regAmm = document.querySelector(".regAmm")
+
+accediUtente.addEventListener('click',function(e){
+    e.preventDefault();
+    
+})
+
+logAmm.addEventListener('click',function(e){
+    e.preventDefault();
+})
+
+regAmm.addEventListener('click',function(e){
+    e.preventDefault();
+    console.log("ciao");
+})

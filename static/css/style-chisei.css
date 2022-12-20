@@ -9,6 +9,10 @@
     justify-content: space-between;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 /*colori normali*/
 .box{
     margin: auto 0;
@@ -44,7 +48,13 @@
     justify-content: space-around;
 }
 
-.bottoni button{
+button{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.bottoni a{
         padding: 0;
         border: none;
         background: none;
@@ -82,10 +92,11 @@
 .sfocaturaBottoni{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     
 }
 
-.sfocaturaBottoni button{
+.sfocaturaBottoni a{
     padding: 0;
     border: none;
     background: none;
