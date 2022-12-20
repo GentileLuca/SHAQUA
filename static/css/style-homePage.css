@@ -127,11 +127,6 @@ header{
 
 /* Inizio homePage */
 
-#chiSiamo{
-    width: 100%;
-    height: 85vh;
-}
-
 /*inizio contattaci*/
 
 #contattaci{
@@ -216,3 +211,11 @@ header{
 
 /*fine cosaOffriamo*/
 
+
+/*inizio chisiamo*/
+#chiSiamo{
+    width: 100%;
+    height: 85vh;
+}
+
+/*fine chi siamo*/
