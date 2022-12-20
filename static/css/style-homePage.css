@@ -216,6 +216,68 @@ header{
 #chiSiamo{
     width: 100%;
     height: 85vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#chiSiamo h1{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #FF2B71;
+    margin-bottom: 5%;
+}
+
+#chiSiamo p{
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #4B4453;
+}
+
+.coppia1 div{
+    margin: 10% -2%;
+}
+.coppia2 div{
+    margin: 10% 2%;
+}
+
+.team h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #5C20BC;
+    margin-top: 1%;
+    text-align: center;
+    margin: 0 4%;
+}
+
+.immaginiTeam{
+    display: flex;
+    flex-direction: row;
+}
+
+.idea{
+    text-align: center;
+}
+
+.idea p{
+    padding: 10%;
+    background-color: #F8ECDB;
+    border-radius: 20px;
+    border: 1px solid black;
+    align-content: center;
+    max-width: 700px;
+    min-height: 500px;
+}
+
+
 
 /*fine chi siamo*/
