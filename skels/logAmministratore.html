@@ -26,21 +26,20 @@
                  </div>
                  <div class="form">
                     <form action="#" method="post" name="myform">
-                        <label>Email</label><input type="text" id="email">
-                        <label>Password</label><input type="password" id="password">
-                        <label>Codice Destinatario</label><input type="text" id="cod">
-                    </form> 
-                 </div>
-                 <div class="interazioni">
-                    <div class="checkbox">
-                        <input type="checkbox" id="ricordami" name="ricordami" value="ricordami">
-                        <label for="ricordami">Ricordami</label>
+                        <label>Email</label><input type="email" name="email">
+                        <label>Password</label><input type="password" name="password">
+                        <label>Codice Destinatario</label><input type="text" name="cod">
+                   </form>
                     </div>
-                 <div class="bottone">
-                    <button id="invia">Accedi</button>
-                </div> 
-                 </div>
-
+                    <div class="interazioni">
+                            <div class="checkbox">
+                                <input type="checkbox" id="ricordami" name="ricordami" value="ricordami">
+                                <label for="ricordami">Ricordami</label>
+                            </div>
+                        <div class="bottone">
+                            <button type="submit" value="Invia" onclick="valida()">Accedi</button>
+                        </div> 
+                    </div>
             </div>
         </div>
 
